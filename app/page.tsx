@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Playfair_Display } from "next/font/google";
 
-// Usamos Playfair Display para el "Tu hogar lejos de casa" que se ve elegante y Serif como tu mockup
+
 const serifFont = Playfair_Display({ subsets: ["latin"], weight: ["400"] });
 
 export default function LandingPage() {
@@ -36,10 +36,10 @@ export default function LandingPage() {
         </div>
       </header>
 
-      {/* 2. Cuerpo (Hero Section Dividido) */}
+      {}
       <main className="flex flex-col lg:flex-row flex-grow h-[calc(100vh-80px)] w-full overflow-hidden">
         
-        {/* Carril Izquierdo (Logo Grande) */}
+        {}
         <div className="lg:w-1/3 w-full flex items-center justify-center p-8 bg-white border-r border-gray-100 flex-shrink-0">
           <Image 
             src="/logoILAR.jpg" 
@@ -51,9 +51,9 @@ export default function LandingPage() {
           />
         </div>
 
-        {/* Carril Derecho (Contenedor de la Habitación con posición relativa explícita y tamaño forzado) */}
+        {}
         <div className="lg:w-2/3 w-full h-full relative min-h-[300px] bg-gray-100">
-          {/* Imagen de fondo de la habitación */}
+          {}
           <Image 
             src="/habitacion.jpg" 
             alt="Habitación de hotel acogedora"
